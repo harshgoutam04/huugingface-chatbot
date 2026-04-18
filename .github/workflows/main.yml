@@ -23,6 +23,4 @@ jobs:
 
           git remote add hf https://harsh041503:$HF_TOKEN@huggingface.co/spaces/harsh041503/CHATBOT_APP
 
-          git pull hf main --rebase || true
-
-          git push hf main
+          git push hf main --force
