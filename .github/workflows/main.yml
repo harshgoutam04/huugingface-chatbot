@@ -21,6 +21,6 @@ jobs:
           git config --global user.email "harshgoutam04@gmail.com"
           git config --global user.name "github-actions"
 
-          git remote add hf https://harsh041503:$HF_TOKEN@huggingface.co/spaces/harsh041503/CHATBOT_APP
+          git remote add hf https://harsh041503:$HF_TOKEN@huggingface.co/spaces/harsh041503/groq_chatbot
 
           git push hf main --force
